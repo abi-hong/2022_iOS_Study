@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var idTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    let peopleTabStoryboard : UIStoryboard = UIStoryboard(name: "PeopleTab", bundle: nil)
+    
+    let KakaoHomeTabStoryboard : UIStoryboard = UIStoryboard(name: "KakaoHomeTab", bundle: nil)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -20,12 +24,10 @@ class ViewController: UIViewController {
 
     
     @IBAction func loginButtonClicked(_ sender: Any) {
-        guard let ThirdVC = self.storyboard?.instantiateViewController(identifier: "ThirdViewController") as? ThirdViewController else { return }
+        guard let peopleTabVC = KakaoHomeTabStoryboard.instantiateViewController(identifier: "HomeTabbarViewController") as? HomeTabbarViewController else {return}
         if idTextField.text != "" , passwordTextField.text != ""
         {
-            ThirdVC.name = idTextField.text
-            ThirdVC.modalPresentationStyle = .fullScreen
-            self.present(ThirdVC, animated: true, completion: nil)
+            self.navigationController?.pushViewController(peopleTabVC, animated: true)
         }
     }
     

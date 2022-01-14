@@ -15,6 +15,15 @@
 		0078EA032785456300F8E621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0078EA012785456300F8E621 /* LaunchScreen.storyboard */; };
 		0078EA0B2785484900F8E621 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078EA0A2785484900F8E621 /* SecondViewController.swift */; };
 		0078EA0D2785485700F8E621 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0078EA0C2785485700F8E621 /* ThirdViewController.swift */; };
+		009CBCBC27912D8D00FD69A6 /* KakaoHomeTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009CBCBB27912D8D00FD69A6 /* KakaoHomeTab.storyboard */; };
+		009CBCBE27912DF200FD69A6 /* PeopleTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009CBCBD27912DF200FD69A6 /* PeopleTab.storyboard */; };
+		009CBCC027912DFC00FD69A6 /* ChatTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009CBCBF27912DFC00FD69A6 /* ChatTab.storyboard */; };
+		009CBCC227912E0E00FD69A6 /* TagTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009CBCC127912E0E00FD69A6 /* TagTab.storyboard */; };
+		009CBCC427912E1600FD69A6 /* ShopTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009CBCC327912E1600FD69A6 /* ShopTab.storyboard */; };
+		009CBCC627912E1E00FD69A6 /* EtcTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009CBCC527912E1E00FD69A6 /* EtcTab.storyboard */; };
+		009CBCCC2791320B00FD69A6 /* PeopleTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CBCCB2791320B00FD69A6 /* PeopleTabViewController.swift */; };
+		009CBCCE2791348300FD69A6 /* HomeTabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CBCCD2791348300FD69A6 /* HomeTabbarViewController.swift */; };
+		009CBCD027914B4100FD69A6 /* profileImgClickedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CBCCF27914B4100FD69A6 /* profileImgClickedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,15 @@
 		0078EA042785456300F8E621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0078EA0A2785484900F8E621 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0078EA0C2785485700F8E621 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		009CBCBB27912D8D00FD69A6 /* KakaoHomeTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KakaoHomeTab.storyboard; sourceTree = "<group>"; };
+		009CBCBD27912DF200FD69A6 /* PeopleTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PeopleTab.storyboard; sourceTree = "<group>"; };
+		009CBCBF27912DFC00FD69A6 /* ChatTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatTab.storyboard; sourceTree = "<group>"; };
+		009CBCC127912E0E00FD69A6 /* TagTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TagTab.storyboard; sourceTree = "<group>"; };
+		009CBCC327912E1600FD69A6 /* ShopTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShopTab.storyboard; sourceTree = "<group>"; };
+		009CBCC527912E1E00FD69A6 /* EtcTab.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EtcTab.storyboard; sourceTree = "<group>"; };
+		009CBCCB2791320B00FD69A6 /* PeopleTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTabViewController.swift; sourceTree = "<group>"; };
+		009CBCCD2791348300FD69A6 /* HomeTabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabbarViewController.swift; sourceTree = "<group>"; };
+		009CBCCF27914B4100FD69A6 /* profileImgClickedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileImgClickedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00507AE4278EB53900AEA312 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0078E9FC2785455F00F8E621 /* Main.storyboard */,
+				009CBCBB27912D8D00FD69A6 /* KakaoHomeTab.storyboard */,
+				009CBCBD27912DF200FD69A6 /* PeopleTab.storyboard */,
+				009CBCBF27912DFC00FD69A6 /* ChatTab.storyboard */,
+				009CBCC127912E0E00FD69A6 /* TagTab.storyboard */,
+				009CBCC327912E1600FD69A6 /* ShopTab.storyboard */,
+				009CBCC527912E1E00FD69A6 /* EtcTab.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		00507AE5278EB54B00AEA312 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0078E9FA2785455F00F8E621 /* ViewController.swift */,
+				0078EA0A2785484900F8E621 /* SecondViewController.swift */,
+				0078EA0C2785485700F8E621 /* ThirdViewController.swift */,
+				009CBCCD2791348300FD69A6 /* HomeTabbarViewController.swift */,
+				009CBCCB2791320B00FD69A6 /* PeopleTabViewController.swift */,
+				009CBCCF27914B4100FD69A6 /* profileImgClickedViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		0078E9EA2785455F00F8E621 = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +107,8 @@
 			children = (
 				0078E9F62785455F00F8E621 /* AppDelegate.swift */,
 				0078E9F82785455F00F8E621 /* SceneDelegate.swift */,
-				0078E9FA2785455F00F8E621 /* ViewController.swift */,
-				0078E9FC2785455F00F8E621 /* Main.storyboard */,
-				0078EA0A2785484900F8E621 /* SecondViewController.swift */,
-				0078EA0C2785485700F8E621 /* ThirdViewController.swift */,
+				00507AE4278EB53900AEA312 /* Storyboard */,
+				00507AE5278EB54B00AEA312 /* ViewController */,
 				0078E9FF2785456300F8E621 /* Assets.xcassets */,
 				0078EA012785456300F8E621 /* LaunchScreen.storyboard */,
 				0078EA042785456300F8E621 /* Info.plist */,
@@ -130,9 +173,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				009CBCC227912E0E00FD69A6 /* TagTab.storyboard in Resources */,
+				009CBCC027912DFC00FD69A6 /* ChatTab.storyboard in Resources */,
+				009CBCC427912E1600FD69A6 /* ShopTab.storyboard in Resources */,
 				0078EA032785456300F8E621 /* LaunchScreen.storyboard in Resources */,
+				009CBCC627912E1E00FD69A6 /* EtcTab.storyboard in Resources */,
+				009CBCBC27912D8D00FD69A6 /* KakaoHomeTab.storyboard in Resources */,
 				0078EA002785456300F8E621 /* Assets.xcassets in Resources */,
 				0078E9FE2785455F00F8E621 /* Main.storyboard in Resources */,
+				009CBCBE27912DF200FD69A6 /* PeopleTab.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +194,10 @@
 			files = (
 				0078EA0B2785484900F8E621 /* SecondViewController.swift in Sources */,
 				0078E9FB2785455F00F8E621 /* ViewController.swift in Sources */,
+				009CBCCE2791348300FD69A6 /* HomeTabbarViewController.swift in Sources */,
 				0078EA0D2785485700F8E621 /* ThirdViewController.swift in Sources */,
+				009CBCD027914B4100FD69A6 /* profileImgClickedViewController.swift in Sources */,
+				009CBCCC2791320B00FD69A6 /* PeopleTabViewController.swift in Sources */,
 				0078E9F72785455F00F8E621 /* AppDelegate.swift in Sources */,
 				0078E9F92785455F00F8E621 /* SceneDelegate.swift in Sources */,
 			);

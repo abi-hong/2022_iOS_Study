@@ -13,19 +13,22 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var makePasswordTextField: UITextField!
     @IBOutlet weak var checkPasswordTextField: UITextField!
     
+    let peopleTabStoryboard : UIStoryboard = UIStoryboard(name: "PeopleTab", bundle: nil)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
     @IBAction func makeNewAccountButtonClicked(_ sender: Any) {
-        guard let ThirdVC = self.storyboard?.instantiateViewController(identifier: "ThirdViewController") as? ThirdViewController else { return }
+        let peopleTabVC = peopleTabStoryboard.instantiateViewController(identifier: "PeopleTabViewController")
         
-        ThirdVC.name = makeIdTextField.text
+        //ThirdVC.name = makeIdTextField.text
         
-        if makeIdTextField.text?.isEmpty == false && makePasswordTextField.text?.isEmpty == false && checkPasswordTextField.text?.isEmpty == false {
-            self.present(ThirdVC, animated: true, completion: nil)
+        if makeIdTextField.text != "" && makePasswordTextField.text != "" && checkPasswordTextField.text != "" {
+            
+            peopleTabVC.modalPresentationStyle = .fullScreen
+            self.present(peopleTabVC, animated: true, completion: nil)
         }
     }
 }
